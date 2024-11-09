@@ -2,7 +2,10 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   // purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  content: ['./src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: [
+    "./src/**/*.{html,js,vue,ts}",
+    "*.{html,js}"
+  ],
   variants: {
     extend: {},
   },
@@ -14,9 +17,6 @@ module.exports = {
       md: '768px',
       lg: '976px',
       xl: '1440px',
-    },
-    colors: {
-      
     },
     fontFamily: {
       sans: ['Jost', 'sans-serif'],

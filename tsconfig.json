@@ -13,6 +13,7 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
+    "types": ["vite/client", "vue"],
     "noEmit": false,
     "paths": {
       //Direct

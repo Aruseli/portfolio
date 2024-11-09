@@ -3,10 +3,13 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": ".",
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": ["vite/client"]
   },
   "include": [
     "src/**/*.ts",
-    "vite.config.ts"
-  ]
+    "src/**/*.vue",
+    "src/components/**/*",
+    "vue.d.ts"
+  ],
 }
